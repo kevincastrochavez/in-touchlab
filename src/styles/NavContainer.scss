@@ -1,0 +1,13 @@
+.navContainer {
+  height: 80px;
+  grid-column: content-s/content-e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+
+  &__logo {
+    height: 50px;
+    width: 45.25px;
+  }
+}

@@ -1,0 +1,11 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-columns: minmax(16px, 120px) [content-s] minmax(318px, 1fr) [content-e] minmax(
+      16px,
+      120px
+    );
+  font-family: "Roboto";
+}
